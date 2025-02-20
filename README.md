@@ -77,22 +77,7 @@ The project revealed several important patterns in flight pricing:
 4. **Seasonal Patterns**: Prices in peak travel seasons can be 30% higher than off-peak
 5. **Stop Premium**: Each additional stop increases price by approximately 10-20%
 
-## Installation and Usage
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/flight-price-prediction.git
-cd flight-price-prediction
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the model training pipeline
-python src/model_training.py
-
-# Run experiments
-python experiments/flight_prediction_experiments.py
-```
 
 ## Prediction API Usage
 
@@ -137,8 +122,3 @@ print(f"Predicted flight price: ₹{predicted_price:.2f}")
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
-
-- Dataset provided by [source name]
-- Inspired by research from [relevant papers/sources]
-- Special thanks to [any collaborators or mentors]
