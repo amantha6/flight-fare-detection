@@ -110,15 +110,3 @@ predicted_price = model.predict(flight_processed)[0]
 print(f"Predicted flight price: ₹{predicted_price:.2f}")
 ```
 
-## Future Improvements
-
-- Implement deep learning models for potentially higher accuracy
-- Add real-time price scraping for up-to-date predictions
-- Develop a web interface for easy consumer access
-- Explore transfer learning to adapt to new routes/airlines
-- Incorporate weather data for improved seasonal predictions
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
